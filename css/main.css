@@ -1,0 +1,125 @@
+
+/* 
+*	Kauã Melo - 02/28/2016
+*	Fortaleza - Brasil
+*	virtual.kaua@gmail.com
+*
+*	www.kauamelo.com
+*/
+
+
+*
+{
+	color: white;
+}
+
+body
+{
+	background: rgb(255,255,255);
+}
+
+div#experience
+{
+	position: absolute;
+
+	width: 100%;
+	text-align: center;
+
+
+	/* text */
+	text-align: center;
+
+	color: white;
+
+    font-family: "open sans",arial,sans-serif;
+
+    line-height: 1.2;
+	font-size: 4.5em;
+    letter-spacing: 4px;
+    text-shadow: 0 2px 3px gray;
+}
+
+
+a#qMark
+{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+
+	text-decoration: none;
+	color: gray;
+	font-size: 1.5em;
+}
+
+a#qMark:hover
+{
+	color: rgb(50,50,50);
+    font-style: italic;
+}
+
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+
+	width: 100%;
+}
+
+footer span
+{
+	font-size: 0.9em;
+	color: gray;
+}
+
+footer p
+{
+	font-family: Verdana, Geneva, sans-serif;
+	
+	text-align: center;
+	color: gray;
+}
+
+footer a
+{
+	color: gray;
+}
+
+footer a:hover
+{
+	color: rgb(50,50,50);
+    font-style: italic;
+}
+
+
+
+/******* Small screens    *******/
+@media screen and (max-width: 1049px) 
+{
+
+a#qMark
+{
+	position: fixed;
+	bottom: 0;
+	left:   10px;
+	top:    auto; /* clear the last top value (top: 10px;) */
+	right:  auto; /* clear the last right value (right: 10px;) */
+
+	font-size: 5.0em;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+footer p
+{
+	font-size: 1.5em;
+	text-align: right;
+	margin-right: 10px;
+}
+
+}
