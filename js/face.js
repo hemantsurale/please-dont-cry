@@ -92,7 +92,7 @@ function face()
 		curveVertex(-p10.x, p10.y);  
 		curveVertex(-p9.x, p9.y);  
 		curveVertex(-p8.x, p8.y);  
-		curveVertex(-p7.x, p7.y);  
+		//curveVertex(-p7.x, p7.y);  
 		curveVertex(-p6.x, p6.y);  
 		//curveVertex(-p5.x, p5.y);  
 		curveVertex(-p4.x, p4.y);  
